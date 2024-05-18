@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Primeiro Formulário</title>
+</head>
+<body>
+    <div class="container">
+    <form action="https://github.com/MatheusGiehl">
+        <h2>Dados Pessoais:</h2>    
+        <label for="name">Primeiro Nome:</label> <br>
+            <input type="text" id="name" required minlength="2"><br>
+        <label for="lastname">Sobrenome:</label> <br>
+            <input type="text"  id=lastname" required minlength="2"><br>
+        <label for="phonenumber">Contato:</label> <br>
+            <input type="number" name="number" id="phonenumber"><br>
+        <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+        <label for="yars">Idade:</label><br>
+            <input type="number" name="yars" id="yars" min="18" required><br>
+        <input class="btn" type="submit">
+    </form>
+    </div>
+</body>
+</html>
